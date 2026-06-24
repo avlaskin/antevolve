@@ -1,4 +1,5 @@
-"""This is an evaluator qwen v1 here."""
+"""This is an evaluator link prediction algorithms."""
+
 import numpy as np
 import os
 import random

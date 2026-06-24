@@ -1,4 +1,4 @@
-"""Initial program qwen v1 to be evolved."""
+"""Initial program for link prediction."""
 
 from abc import ABC, abstractmethod
 from sklearn import metrics

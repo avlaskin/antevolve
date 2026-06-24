@@ -1,4 +1,4 @@
-## AntEvolve - exploring link prediction algorithms via program evolution
+# AntEvolve: Code evolution for link prediction algorithms
 
 Complementary code for the paper: AntEvolve: Exploring Link Prediction Algorithms via Program Evolution.
 
@@ -7,9 +7,16 @@ Complementary code for the paper: AntEvolve: Exploring Link Prediction Algorithm
 Requirements:
  -  Docker
  -  virtualenv or any virtual env for Python is recommended.
- -  Computer with > 4 cpus and >16Gb of Ram.
+ -  Computer with > 4 cpus and >32Gb of Ram.
 
-### How to run
+## Best methods and evaluation
+
+![Best algorithms performance](images/550_figure.png)
+
+- [evaluate/README.md](evaluate/README.md) — how to run link-prediction evaluation over datasets and interpret AUC results.
+- [best/README.md](best/README.md) — catalogue of the best algorithms discovered by AntEvolve, with performance summary.
+
+## How to run
 
 ```
 virtualenv -p python3 .venv
@@ -69,3 +76,4 @@ pip install PyQt6 pyqtgraph
 ```
 ./clean.sh
 ```
+
