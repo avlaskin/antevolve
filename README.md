@@ -1,6 +1,6 @@
-# AntEvolve: Code evolution for link prediction algorithms
+# AntEvolve: Code evolution for link prediction in complex networks
 
-Complementary code for the paper: AntEvolve: Exploring Link Prediction Algorithms via Program Evolution.
+Complementary code for the paper: Code evolution for link prediction in complex networks.
 
 ![AntEvolve GUI](images/screen.png)
 
